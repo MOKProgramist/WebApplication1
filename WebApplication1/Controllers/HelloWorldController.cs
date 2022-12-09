@@ -6,9 +6,9 @@ namespace WebApplication1.Controllers
     public class HelloWorldController : Controller
     {
         // GET: HelloWorld/
-        public string Index()
+        public IActionResult Index()
         {
-            return "Дефолтная страница";
+            return View();
         }
 
         // GET: HelloWorld/welcome
